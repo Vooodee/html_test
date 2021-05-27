@@ -747,7 +747,7 @@ input[type=range]:focus::-ms-fill-upper {
   content: none;
 }
 .form-container__icon {
-  flex-basis: 46%;
+  flex-basis: 44%;
 }
 .form-container__line-1 {
   margin-bottom: 1rem;
