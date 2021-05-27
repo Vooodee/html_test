@@ -29,3 +29,13 @@ open_btn.addEventListener('click', () =>{
 close_btn.addEventListener('click', () =>{
   menu_container.classList.remove('open-menu-container')
 })
+
+/* range value */
+
+const item_range = document.querySelector('.item-range')
+const range = document.querySelector('#range')
+
+document.addEventListener('mousemove', () =>{
+
+  item_range.innerText = range.value + '%'
+})
