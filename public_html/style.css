@@ -705,7 +705,9 @@ input[type=range]:focus::-ms-fill-upper {
 }
 }
 @media (max-width: 767px){
-  
+  .header-container__logo h1{
+      font-size: 1.5rem;
+  }
 .header-container__mobile-title {
   font-size: 2rem !important;
   }
