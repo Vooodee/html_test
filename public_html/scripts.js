@@ -38,3 +38,9 @@ const range = document.querySelector('#range')
 document.addEventListener('mousemove', () =>{
   item_range.innerText = range.value + '%'
 })
+
+
+  document.addEventListener('pointermove', () =>{
+  
+    item_range.innerText = range.value + '%'
+  })
