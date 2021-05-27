@@ -180,7 +180,7 @@ a {
   * #Form
   */
 .form-container{
-  background: url(/media/image_svg/map-fon.svg) top center no-repeat var(--map-bg-color);
+  background: url(media/image_svg/map-fon.svg) top center no-repeat var(--map-bg-color);
   background-size: cover;
 }
 .form-container__title{
