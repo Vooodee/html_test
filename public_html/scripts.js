@@ -35,12 +35,14 @@ close_btn.addEventListener('click', () =>{
 const item_range = document.querySelector('.item-range')
 const range = document.querySelector('#range')
 
-document.addEventListener('mousemove', () =>{
+const parent_range = document.querySelector('.range-container')
+
+parent_range.addEventListener('mousemove', () =>{
   item_range.innerText = range.value + '%'
 })
 
 
-  document.addEventListener('pointermove', () =>{
+  parent_range.addEventListener('touchend', () =>{
   
     item_range.innerText = range.value + '%'
   })
