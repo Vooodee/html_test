@@ -705,6 +705,16 @@ input[type=range]:focus::-ms-fill-upper {
 }
 }
 @media (max-width: 767px){
+  
+  .header-container__mobile-title {
+    font-size: 2rem !important;
+}
+
+.header-container__item, .header-container__item > .header-container__link{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
   .mobile-menu{
     display: block;
     filter: invert(1);
@@ -724,6 +734,7 @@ input[type=range]:focus::-ms-fill-upper {
 .header-container .flex-wrap{
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: nowrap;
 }
 .banner-vantainer__btn {
   margin-top: 0.25rem;
@@ -736,7 +747,7 @@ input[type=range]:focus::-ms-fill-upper {
   content: none;
 }
 .form-container__icon {
-  flex-basis: 47%;
+  flex-basis: 46%;
 }
 .form-container__line-1 {
   margin-bottom: 1rem;
